@@ -9,7 +9,8 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="순홍 '강화주사위' 개인정보처리 방침" />
+
+     <h1 className="title">"순홍 '강화주사위' 개인정보처리 방침"</h1>
     
       <p className="description">
         본 개인정보처리 방침은 순홍("회사")이 개발한 "강화주사위" 앱 및 관련 서비스("서비스")에 대한 개인정보 수집, 사용, 보호에 관한 내용을 설명합니다.
