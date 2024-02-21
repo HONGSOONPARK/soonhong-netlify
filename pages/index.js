@@ -1,6 +1,5 @@
 import Head from 'next/head'
 import Header from '@components/Header'
-import Footer from '@components/Footer'
 
 export default function Home() {
   return (
@@ -10,10 +9,11 @@ export default function Home() {
       </Head>
 
       <main>
-        <Header title="순홍 "강화주사위" 개인정보처리 방침" />
+        <Header title="순홍 '강화주사위' 개인정보처리 방침" />
+    
       <p className="description">
         본 개인정보처리 방침은 순홍("회사")이 개발한 "강화주사위" 앱 및 관련 서비스("서비스")에 대한 개인정보 수집, 사용, 보호에 관한 내용을 설명합니다.
-    </p>
+      </p>
 
     <h2 className="description">1. 수집하는 개인정보의 종류 및 수집 목적</h2>
 
@@ -58,8 +58,8 @@ export default function Home() {
 
     <p className="description">본 개인정보처리 방침은 [2024-02-21]에 마지막으로 업데이트되었습니다.</p>
 
-
       </main>
+    
 
     </div>
   )
